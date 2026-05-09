@@ -8,7 +8,7 @@ on:
       name:
         description: 'Human-readable name'
         required: true
-        default: 'TrixiePup64'
+        default: 'ResolutePup64'
       version:
         description: 'Version number'
         required: true
@@ -24,11 +24,11 @@ on:
       compat-distro:
         description: 'Compatible distro'
         required: false
-        default: 'debian'
+        default: 'ubuntu'
       compat-distro-version:
         description: 'Compatible distro version'
         required: false
-        default: 'trixie64'
+        default: 'resolute64'
       kernel:
         description: 'Kernel version'
         required: false
@@ -36,7 +36,7 @@ on:
       prefix:
         description: 'File name prefix'
         required: false
-        default: 'trixiepup64'
+        default: 'resolutepup64'
       release:
         type: boolean
         description: 'Upload release draft'
