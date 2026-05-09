@@ -1,4 +1,7 @@
 name: release
+permissions:
+  contents: write
+  releases: write
 
 on:
   workflow_dispatch:
