@@ -36,7 +36,7 @@ PETBUILDS="$PETBUILDS wlopm xdg-puppy-labwc xdg-puppy-sfwbar"
 
 ## packages from prebuilt binaries
 PKGS_SPECS_TABLE='
-yes|abiword-deps|libboost-dev,libwv-dev,libenchant-2-dev|exe,dev,doc,nls||deps:yes
+# yes|abiword-deps|libboost-dev,libwv-dev,libenchant-2-dev|exe,dev,doc,nls||deps:yes
 yes|arp-scan|arp-scan|exe,dev>exe,doc,nls||deps:yes #required for peasyport
 yes|acl|libacl1|exe,dev,doc,nls||deps:yes
 yes|adduser|adduser|exe,dev,doc,nls
