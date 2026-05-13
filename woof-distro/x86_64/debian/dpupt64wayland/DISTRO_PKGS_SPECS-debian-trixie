@@ -320,7 +320,7 @@ yes|dict||exe,dev,doc,nls
 yes|displaycontrol||exe,dev,doc,nls
 yes|exiv2||exe,dev,doc,nls
 yes|frugalpup||exe,dev,doc,nls
-yes|games_trixie64||exe,dev,doc,nls
+# yes|games_trixie64||exe,dev,doc,nls
 yes|gdmap||exe,dev,doc,nls
 yes|geany_color_schemes||exe,dev,doc,nls
 yes|gftp||exe,dev,doc,nls	# use this petbuild until gftp is available in upstream Debian repositories
@@ -342,12 +342,12 @@ yes|neofetch||exe,dev,doc,nls
 yes|netmon_wce_static||exe,dev,doc,nls
 yes|network_connection_11Jun2024||exe,dev,doc,nls
 yes|nicOS-Utility-Suite||exe,dev,doc,nls
-yes|osmo||exe,dev,doc,nls
+# yes|osmo||exe,dev,doc,nls
 yes|p7zip||exe,dev,doc,nls
 yes|packit||exe,dev,doc,nls
 yes|zpburn||exe,dev,doc,nls	# renamed to ignore rootfs-package
 yes|pcompress||exe,dev,doc,nls
-yes|pdict||exe,dev,doc,nls
+# yes|pdict||exe,dev,doc,nls
 yes|peasyapps||exe,dev,doc,nls
 yes|peasydiff||exe,dev,doc,nls
 yes|peasyglue||exe,dev,doc,nls
@@ -370,7 +370,7 @@ yes|sfwbar_clipboard||exe,dev,doc,nls
 yes|simplegtkradio||exe,dev,doc,nls
 yes|swaylock||exe,dev,doc,nls
 yes|system_icons_trixiepup64||exe,dev,doc,nls
-yes|transmission_gtk_amd64||exe,dev,doc,nls
+# yes|transmission_gtk_amd64||exe,dev,doc,nls
 yes|uextract||exe,dev,doc,nls
 yes|UrxvtControl||exe,dev,doc,nls
 yes|vlc||exe,dev,doc,nls
