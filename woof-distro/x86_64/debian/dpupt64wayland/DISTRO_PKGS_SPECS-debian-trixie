@@ -33,7 +33,7 @@ PETBUILDS="busybox aaa_pup_c disktype dmz-cursor-theme geany gexec gtkdialog gtk
 # PETBUILDS="$PETBUILDS gnumeric gparted gmeasures fpm2 ExpenseTracker grsync uget mtr firefox-portable64"
 PETBUILDS="$PETBUILDS gparted gmeasures fpm2 grsync uget mtr firefox-portable64"
 PETBUILDS="$PETBUILDS wlopm xdg-puppy-labwc xdg-puppy-sfwbar"
-# gcc14 removed: abiword transmission weechat mpv gtkhash
+gcc14 removed: abiword transmission weechat mpv gtkhash
 
 ## packages from prebuilt binaries
 PKGS_SPECS_TABLE='
