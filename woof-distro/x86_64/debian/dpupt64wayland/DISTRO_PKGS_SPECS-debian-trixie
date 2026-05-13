@@ -92,7 +92,7 @@ yes|findutils|findutils|exe,dev>null,doc,nls||deps:yes
 yes|flatpak|flatpak|exe,dev,doc,nls||deps:yes
 yes|dejavu_fonts|fonts-dejavu|exe,dev,doc,nls||deps:yes
 yes|fonts-liberation2|fonts-liberation2|exe,dev,doc,nls||deps:yes
-yes|fonts-noto|fonts-noto-core,fonts-noto-mono,fonts-noto-cjk,fonts-noto-color-emoji|exe,dev,doc,nls||deps:yes
+yes|fonts-noto|fonts-noto-core,fonts-noto-mono,fonts-noto-cjk,fonts-noto-cjk-extra,fonts-noto-color-emoji|exe,dev,doc,nls||deps:yes
 yes|freetype|libfreetype6,libfreetype-dev|exe,dev,doc,nls||deps:yes
 yes|fsearch|fsearch|exe,dev,doc,nls||deps:yes
 yes|galculator|galculator|exe,dev>null,doc,nls||deps:yes
@@ -181,14 +181,14 @@ yes|sysfsutils|libsysfs2,sysfsutils|exe,dev,doc,nls||deps:yes
 yes|syslinux|syslinux,syslinux-common,syslinux-utils,syslinux-efi,extlinux,isolinux|exe,dev,doc,nls||deps:yes
 yes|tar|tar|exe,dev>null,doc,nls||deps:yes
 yes|time|time|exe,dev>null,doc,nls||deps:yes
-yes|transmission-deps|libevent-dev,libnatpmp-dev,libminiupnpc-dev|exe,dev,doc,nls||deps:yes
+# yes|transmission-deps|libevent-dev,libnatpmp-dev,libminiupnpc-dev|exe,dev,doc,nls||deps:yes
 yes|udev|udev|exe,dev,doc,nls||deps:yes
 yes|ucf|ucf|exe,dev,doc,nls||deps:yes
 yes|unzip|unzip|exe,dev>null,doc,nls||deps:yes
 yes|usbutils|usbutils|exe,dev,doc,nls||deps:yes
 yes|util-linux|util-linux,mount,libuuid1,libblkid1,libmount1,libsmartcols1,uuid-dev,util-linux-extra|exe,dev,doc,nls||deps:yes
 yes|vte|libvte-2.91-0,libvte-2.91-common,libvte-2.91-dev|exe,dev,doc,nls||deps:yes
-yes|weechat|weechat,weechat-curses,weechat-headless|exe,dev,doc,nls||deps:yes
+# yes|weechat|weechat,weechat-curses,weechat-headless|exe,dev,doc,nls||deps:yes
 yes|wget|wget|exe,dev>null,doc,nls||deps:yes
 yes|wireless-tools|wireless-tools,libiw30t64,libiw-dev|exe,dev,doc,nls||deps:yes
 yes|wireplumber|wireplumber|exe,dev,doc,nls||deps:yes
