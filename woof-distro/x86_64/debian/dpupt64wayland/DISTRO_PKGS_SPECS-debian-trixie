@@ -9,7 +9,7 @@ FALLBACKS_COMPAT_VERSIONS=''
 #            Empty field, then use PET pkg.
 #                                    How the package will get split up in woof (optional redirection '>' operator).
 #                                    Missing field, it goes into exe. Can also redirect >null, means dump it.
-#yes|abiword|iceword,iceword-plugins|exe,dev,doc,nls
+# yes|abiword|iceword,iceword-plugins|exe,dev,doc,nls
 
 #example showing wildcard. finds all full pkg names with 'gcc-4.3*',
 #but, exclude any 'gcc-4.3-doc*' matches...
@@ -32,7 +32,7 @@ PETBUILDS="busybox aaa_pup_c disktype dmz-cursor-theme geany gexec gtkdialog gtk
 [ "$DISTRO_TARGETARCH" = "x86_64" ] && PETBUILDS="$PETBUILDS efilinux"
 PETBUILDS="$PETBUILDS gnumeric gparted gmeasures fpm2 ExpenseTracker grsync uget mtr firefox-portable64"
 PETBUILDS="$PETBUILDS wlopm xdg-puppy-labwc xdg-puppy-sfwbar"
-gcc14 removed: abiword transmission weechat mpv gtkhash
+# gcc14 removed: abiword transmission weechat mpv gtkhash
 
 ## packages from prebuilt binaries
 PKGS_SPECS_TABLE='
@@ -105,7 +105,7 @@ yes|glibc_locales|locales|exe,dev,doc,nls>exe||deps:yes
 yes|gmp|libgmp10,libgmpxx4ldbl,libgmp-dev|exe,dev,doc,nls||deps:yes #in precise, this was only in devx, but abiword needs it.
 yes|gnome-icon-theme|gnome-icon-theme|exe>null,dev>null,doc>null,nls>null
 yes|gdisk|gdisk|exe,dev,doc,nls||deps:yes
-yes|goffice|libgoffice-0.10-dev|exe,dev,doc,nls||deps:yes
+# yes|goffice|libgoffice-0.10-dev|exe,dev,doc,nls||deps:yes
 yes|gnutls|libgnutls30t64,libgnutls28-dev|exe,dev,doc,nls||deps:yes
 yes|gpart|gpart|exe,dev,doc,nls||deps:yes
 yes|gparted-deps|libgtkmm-3.0-dev,libparted-dev|exe,dev,doc,nls||deps:yes
