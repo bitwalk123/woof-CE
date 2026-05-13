@@ -283,7 +283,7 @@ fi
 #TrixiePup64 extra apps/libs
 PKGS_SPECS_TABLE="$PKGS_SPECS_TABLE
 yes|qpdfview|qpdfview|exe,dev,doc,nls||deps:yes
-yes|qwinff|qwinff|exe,dev,doc,nls
+# yes|qwinff|qwinff|exe,dev,doc,nls
 yes|diffuse|diffuse|exe,dev,doc,nls
 yes|easytag|easytag|exe,dev>null,doc,nls||deps:yes
 yes|ffmpeg|ffmpeg,libavc1394-0,libavdevice61,libcaca0,libcdio-cdda2t64,libcdio-paranoia2t64,libcdio19t64,libdc1394-25,libdecor-0-0,libglut3.12,libiec61883-0,libopenal-data,libopenal1,libraw1394-11,libsdl2-2.0-0,libslang2,libsndio7.0
@@ -296,7 +296,7 @@ yes|htop|htop|exe,dev>null,doc,nls||deps:yes
 yes|libdbus-glib|libdbus-glib-1-2|exe,dev,doc,nls||deps:yes #dependency of firefox_esr portable
 yes|libdjvulibre21|libdjvulibre21|exe,dev,doc,nls||deps:yes #dependency of qpdfview
 yes|libspectre1|libspectre1|exe,dev>null,doc>null,nls>null #dependency of imlib2
-yes|abiword|abiword|exe,dev,doc,nls||deps:yes
+# yes|abiword|abiword|exe,dev,doc,nls||deps:yes
 yes|audacious|audacious|exe,dev,doc,nls||deps:yes
 yes|mhwaveedit|mhwaveedit|exe,dev>null,doc,nls
 # yes|mpv|mpv,libavc1394-0,libavdevice61,libcaca0,libcdio-cdda2t64,libcdio-paranoia2t64,libcdio19t64,libdc1394-25,libdecor-0-0,libdvdnav4,libdvdread8t64,libiec61883-0,libmujs3,libopenal-data,libopenal1,libraw1394-11,libsdl2-2.0-0,libsixel1,libslang2,libsndio7.0,libva-wayland2|exe,dev,doc,nls||deps:yes
@@ -313,7 +313,7 @@ yes|ripmime|ripmime|exe,dev,doc,nls
 #Packages defined in Packages-puppy-dpup64-extra
 yes|btop||exe,dev,doc,nls
 yes|cdrtools||exe,dev,doc,nls
-yes|cherrytree||exe,dev,doc,nls
+# yes|cherrytree||exe,dev,doc,nls
 yes|conky||exe,dev,doc,nls
 yes|conky_gtk_lua||exe,dev,doc,nls
 yes|dict||exe,dev,doc,nls
