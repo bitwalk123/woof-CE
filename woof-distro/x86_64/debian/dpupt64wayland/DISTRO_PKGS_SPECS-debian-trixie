@@ -32,7 +32,7 @@ PETBUILDS="busybox aaa_pup_c disktype dmz-cursor-theme geany gexec gtkdialog gtk
 [ "$DISTRO_TARGETARCH" = "x86_64" ] && PETBUILDS="$PETBUILDS efilinux"
 PETBUILDS="$PETBUILDS gnumeric gparted gmeasures fpm2 ExpenseTracker grsync uget mtr firefox-portable64"
 PETBUILDS="$PETBUILDS wlopm xdg-puppy-labwc xdg-puppy-sfwbar"
-# gcc14 removed: abiword transmission weechat mpv gtkhash
+gcc14 removed: abiword transmission weechat mpv gtkhash
 
 ## packages from prebuilt binaries
 PKGS_SPECS_TABLE='
@@ -92,7 +92,7 @@ yes|findutils|findutils|exe,dev>null,doc,nls||deps:yes
 yes|flatpak|flatpak|exe,dev,doc,nls||deps:yes
 yes|dejavu_fonts|fonts-dejavu|exe,dev,doc,nls||deps:yes
 yes|fonts-liberation2|fonts-liberation2|exe,dev,doc,nls||deps:yes
-yes|fonts-noto|fonts-noto-core,fonts-noto-mono,fonts-noto-cjk,fonts-noto-cjk-extra,fonts-noto-color-emoji|exe,dev,doc,nls||deps:yes
+yes|fonts-noto|fonts-noto-core,fonts-noto-mono,fonts-noto-cjk,fonts-noto-color-emoji|exe,dev,doc,nls||deps:yes
 yes|freetype|libfreetype6,libfreetype-dev|exe,dev,doc,nls||deps:yes
 yes|fsearch|fsearch|exe,dev,doc,nls||deps:yes
 yes|galculator|galculator|exe,dev>null,doc,nls||deps:yes
