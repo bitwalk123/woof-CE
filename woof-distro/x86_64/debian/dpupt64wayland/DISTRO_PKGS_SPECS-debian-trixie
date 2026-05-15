@@ -369,13 +369,13 @@ yes|qwallpaper||exe,dev,doc,nls
 yes|samba||exe,dev,doc,nls
 yes|sfwbar||exe,dev,doc,nls
 yes|sfwbar_clipboard||exe,dev,doc,nls
-yes|simplegtkradio||exe,dev,doc,nls
+# yes|simplegtkradio||exe,dev,doc,nls
 yes|swaylock||exe,dev,doc,nls
 yes|system_icons_trixiepup64||exe,dev,doc,nls
 # yes|transmission_gtk_amd64||exe,dev,doc,nls
 yes|uextract||exe,dev,doc,nls
 yes|UrxvtControl||exe,dev,doc,nls
-yes|vlc||exe,dev,doc,nls
+# yes|vlc||exe,dev,doc,nls
 yes|wayland_control_panel||exe,dev,doc,nls
 yes|wcpufreq||exe,dev,doc,nls
 yes|webp-pixbuf-loader||exe,dev,doc,nls
